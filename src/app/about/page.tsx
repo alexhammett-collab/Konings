@@ -84,7 +84,7 @@ export default function AboutPage() {
                     <span className="text-gold font-bold text-lg">{item.year}</span>
                     <h3 className="font-semibold text-lg mt-1">{item.title}</h3>
                     <p className="text-sm text-muted-foreground mt-2 leading-relaxed">{item.desc}</p>
-                    <div className="hidden md:block absolute top-6 w-3 h-3 bg-gold rounded-full ${i % 2 === 0 ? '-right-[1.85rem]' : '-left-[1.85rem]'}" />
+                    <div className={`hidden md:block absolute top-6 w-3 h-3 bg-gold rounded-full ${i % 2 === 0 ? "-right-[1.85rem]" : "-left-[1.85rem]"}`} />
                   </div>
                 </motion.div>
               ))}
